@@ -1820,7 +1820,7 @@ var ponyclicker = (function(){
   var vlastangle = 0;
   var mleftdown = false;
   $('#pagealert').on('click',function(){
-    SaveGame(); Game.settings.closingWarn=false; location.reload(true);
+    SaveGame(); Game.settings.closingWarn=false; location.replace(location.href.replace("blackhole12.com", "erikmcclure.com"));
   });
   
   function getAngle(event) {
